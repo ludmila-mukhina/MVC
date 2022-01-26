@@ -17,7 +17,7 @@ namespace WpfApp6
         public static TextBlock tbCombo;
         
         // блок с бизнес-логикой
-        public static int Count
+        public static int Count // свойство для отображения числа в TextBlock
         {
             get
             {
@@ -29,7 +29,7 @@ namespace WpfApp6
                 tb.Text = count.ToString();
             }
         }
-        public static int Combo
+        public static int Combo  // свойтсво для отображения фамилии в Combobox
         {
             set
             {
